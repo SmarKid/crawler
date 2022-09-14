@@ -1,0 +1,39 @@
+Manifest-Version: 1.0
+Class-Path: hibernate-core-5.2.17.Final.jar webmagic-extension-0.7.5.j
+ ar jackson-databind-2.9.5.jar spring-expression-5.0.6.RELEASE.jar com
+ mons-lang3-3.12.0.jar javax.servlet-api-3.1.0.jar driver-1.17.1.jar d
+ om4j-1.6.1.jar xsoup-0.3.2.jar jackson-datatype-jsr310-2.9.5.jar spri
+ ng-boot-starter-logging-2.0.2.RELEASE.jar asm-5.0.4.jar fastjson-1.2.
+ 75.jar spring-jdbc-5.0.6.RELEASE.jar spring-core-5.0.6.RELEASE.jar Hi
+ kariCP-2.7.9.jar jstl-1.2.jar tomcat-embed-jasper-8.5.31.jar spring-a
+ spects-5.0.6.RELEASE.jar gson-2.8.4.jar slf4j-api-1.7.25.jar jackson-
+ annotations-2.9.0.jar jsoup-1.13.1.jar tomcat-embed-el-8.5.31.jar spr
+ ing-beans-5.0.6.RELEASE.jar assertj-core-3.9.1.jar httpcore-4.4.9.jar
+  hibernate-jpa-2.1-api-1.0.0.Final.jar tomcat-embed-core-8.5.31.jar j
+ andex-2.0.3.Final.jar javassist-3.22.0-GA.jar hibernate-validator-6.0
+ .9.Final.jar javax.transaction-api-1.2.jar log4j-api-2.10.0.jar sprin
+ g-boot-starter-web-2.0.2.RELEASE.jar spring-context-5.0.6.RELEASE.jar
+  spring-boot-starter-tomcat-2.0.2.RELEASE.jar validation-api-2.0.1.Fi
+ nal.jar commons-io-2.8.0.jar commons-codec-1.11.jar aspectjweaver-1.8
+ .13.jar spring-boot-starter-json-2.0.2.RELEASE.jar spring-jcl-5.0.6.R
+ ELEASE.jar playwright-1.17.1.jar spring-boot-starter-2.0.2.RELEASE.ja
+ r httpclient-4.5.5.jar accessors-smart-1.2.jar logback-core-1.2.3.jar
+  javax.annotation-api-1.3.2.jar spring-boot-autoconfigure-2.0.2.RELEA
+ SE.jar jul-to-slf4j-1.7.25.jar driver-bundle-1.17.1.jar jedis-2.9.0.j
+ ar spring-aop-5.0.6.RELEASE.jar antlr-2.7.7.jar spring-webmvc-5.0.6.R
+ ELEASE.jar spring-tx-5.0.6.RELEASE.jar jboss-logging-3.3.2.Final.jar 
+ spring-data-commons-2.0.7.RELEASE.jar log4j-to-slf4j-2.10.0.jar sprin
+ g-boot-2.0.2.RELEASE.jar spring-boot-devtools-2.0.2.RELEASE.jar tomca
+ t-annotations-api-8.5.31.jar guava-16.0.jar spring-data-jpa-2.0.7.REL
+ EASE.jar mysql-connector-java-8.0.11.jar hibernate-commons-annotation
+ s-5.0.1.Final.jar webmagic-core-0.7.5.jar json-path-2.4.0.jar commons
+ -collections-3.2.2.jar json-smart-2.3.jar snakeyaml-1.19.jar commons-
+ pool2-2.5.0.jar jackson-datatype-jdk8-2.9.5.jar jackson-module-parame
+ ter-names-2.9.5.jar spring-boot-starter-data-jpa-2.0.2.RELEASE.jar ec
+ j-3.12.3.jar tomcat-embed-websocket-8.5.31.jar protobuf-java-2.6.0.ja
+ r spring-boot-starter-jdbc-2.0.2.RELEASE.jar spring-orm-5.0.6.RELEASE
+ .jar spring-boot-starter-aop-2.0.2.RELEASE.jar jackson-core-2.9.5.jar
+  logback-classic-1.2.3.jar classmate-1.3.4.jar spring-web-5.0.6.RELEA
+ SE.jar
+Main-Class: cn.wust.yq.crawler.Application
+

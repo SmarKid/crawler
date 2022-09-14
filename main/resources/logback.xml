@@ -1,0 +1,38 @@
+<configuration>
+    <property name="APP_NAME" value="crawler" />
+    <property name="LOG_NAME" value="./logs/${APP_NAME}/${APP_NAME}.log" />
+    <property name="log.pattern"
+              value="%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{50}-%msg%n"></property>
+
+    <appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!--指定日志文件名称-->
+        <file>${LOG_NAME}</file>
+        <encoder>
+            <!--指定日志内容格式-->
+            <pattern>${log.pattern}</pattern>
+            <charset>utf8</charset>
+        </encoder>
+        <rollingPolicy
+                class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_NAME}.%d{yyyy-MM-dd}.%i.log</fileNamePattern>
+            <!--日志最大保存15天-->
+            <maxHistory>365</maxHistory>
+            <!--日志最大的文件大小-->
+            <maxFileSize>100MB</maxFileSize>
+            <!--日志最大保存10GB-->
+            <totalSizeCap>10GB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+    <appender name="consoleAppender"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 类似于layout，除了将时间转化为数组，还会将转换后的数组输出到相应的文件中 -->
+        <encoder>
+            <!-- 定义日志的输出格式 -->
+            <pattern>${log.pattern}</pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="fileAppender" />
+        <appender-ref ref="consoleAppender" />
+    </root>
+</configuration>
